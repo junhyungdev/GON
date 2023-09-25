@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "Copperplate";
+  src: url("../../OPTICopperplate.otf") format("ttf"),
+    url("../../OPTICopperplate.otf") format("woff2"),
+    url("../../OPTICopperplate.otf") format("woff"),
+    url("../../OPTICopperplate.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+/* * {
+  font-family: "Copperplate", sans-serif;
+} */
+
+/* h4 {
+  font-family: "Copperplate", sans-serif;
+} */
+.fc-day a {
+  font-weight: bold;
+  color: black;
+}
+
+/* 토요일 날짜: 파란색 */
+.fc-day-sat a {
+  color: red;
+}
+#myCalendar {
+  margin: 30px;
+}
+#title {
+  margin-left: 20px;
+  font-weight: bold;
+  color: black;
+  font-size: x-large;
+  display: inline-block;
+}
+#simple_announce_div {
+  position: relative;
+}
+#leftBtn {
+  align-items: center;
+
+  flex-direction: column;
+  margin-left: 20px;
+  width: 80px;
+  height: 40px;
+  top: 100%;
+  right: 5%;
+  position: absolute;
+}
+#moreBtn {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+#simple_announce {
+  width: 90%;
+  margin: 0 auto; /* 수평 중앙 정렬 */
+}
+.custom-table th,
+.custom-table td {
+  font-size: 12px !important; /* 강제로 스타일 적용 */
+  /* 다른 스타일 속성들 */
+}
+.custom-table {
+  margin-bottom: 5px;
+}
+@media (max-width: 768px) {
+  #title {
+    margin-right: 30vw;
+  }
+  #add_btn {
+    align-items: center;
+
+    flex-direction: column;
+    margin-left: 20px;
+    width: 80px;
+    height: 40px;
+    top: 100%;
+    right: 5%;
+    position: absolute;
+  }
+}
+
+/* 화면 크기가 768px보다 크고 1200px 이하일 때 (타블렛 뷰) */
+@media (min-width: 769px) and (max-width: 1200px) {
+  #title {
+    margin-right: 60vw;
+  }
+  #add_btn {
+    align-items: center;
+
+    flex-direction: column;
+    margin-left: 20px;
+    width: 80px;
+    height: 40px;
+    top: 100%;
+    right: 5%;
+    position: absolute;
+  }
+}
+
+/* 화면 크기가 1201px 이상일 때 (데스크탑 뷰) */
+@media (min-width: 1201px) {
+  #title {
+    margin-right: 80vw; /* 데스크탑 뷰에서는 더 큰 간격으로 설정합니다. */
+  }
+  #add_btn {
+    align-items: center;
+
+    flex-direction: column;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    width: 80px;
+    height: 40px;
+
+    position: absolute;
+  }
+}

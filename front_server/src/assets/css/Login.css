@@ -1,0 +1,101 @@
+.btn-info {
+  color: #fff;
+  background-color: #0343cb;
+  border-color: #0343cb;
+}
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 수직 중앙 정렬 */
+  /* justify-content: space-between;  */
+  min-height: 100vh; /* 페이지 전체 높이에 맞게 설정 */
+}
+
+#login-title-bar {
+  background-color: #4350af;
+  width: 100%;
+  height: 90px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+#logoid {
+  width: 50%;
+}
+
+.register-form {
+  color: #4350af;
+  text-align: start;
+
+  width: 90%;
+}
+#login_input {
+  background-color: #d9efff;
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+}
+
+#login-btn:hover {
+  background-color: #5e6ac0;
+  border: #5e6ac0;
+}
+@media (max-width: 768px) {
+  #logoid {
+    width: 55%;
+  }
+  .centered-img {
+    /* 이미지 스타일 유지 */
+    display: block;
+    margin: auto;
+    margin-bottom: 10%;
+    margin-top: 15%;
+  }
+  #login-btn {
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 3%;
+    background-color: #3a469d;
+    border: #3a469d;
+  }
+
+  .register-footer {
+    /* 푸터 스타일 유지 */
+    bottom: 0px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background: transparent;
+    color: #2b63de;
+  }
+}
+@media (min-width: 769px) {
+  #logoid {
+    width: 20%;
+  }
+  .centered-img {
+    /* 이미지 스타일 유지 */
+    display: block;
+    margin: auto;
+    margin-bottom: 1%;
+    margin-top: 1%;
+  }
+  #login-btn {
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #3a469d;
+    border: #3a469d;
+  }
+  .register-footer {
+    /* 푸터 스타일 유지 */
+    bottom: 0px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    background: transparent;
+  }
+}

@@ -1,0 +1,59 @@
+.content-text {
+  font-size: 0.725em;
+  line-height: 1.4;
+  margin: 0px 0 0px;
+  font-weight: bold;
+  color: black;
+}
+tr {
+  border: 1px solid rgb(151, 151, 151);
+}
+
+table {
+  width: 100%; /* 테이블의 최대 너비를 500px로 설정합니다. */
+}
+
+.title-text {
+  font-size: 0.725em;
+  line-height: 1.4;
+  margin: 0px 0 0px;
+  font-weight: bold;
+  color: black;
+}
+
+#Announcementtitle {
+  font-size: 1.325em;
+  line-height: 1.4;
+  margin: 20px 0 0px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  min-height: 22px;
+  top: 1; /* Move the title to the top */
+  left: 5; /* Move the title to the left */
+  font-weight: bold;
+  color: #0343cb;
+}
+
+.page-header .filter::after {
+  background-color: wheat;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.announcement-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.create-button {
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  margin: 0px;
+}
